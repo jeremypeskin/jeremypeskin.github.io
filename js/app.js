@@ -30,10 +30,10 @@ var createNewProperty = function(name, price, rent, maintenance, propertyTax, ut
 
 	//Calculate the cap rate
 	capRate = function() {
-		var grossIncome = rent;
+		var grossIncome = rent * 12;
 		var operatingExpenses = (+maintenance) + (+propertyTax) + (+utilitiesAndInsurance);
 		var netIncome = grossIncome - operatingExpenses;
-		var annualNetIncome = netIncome * 12;
+		var annualNetIncome = netIncome;
 		var rawValue = (annualNetIncome / price * 100).toFixed(2);
 
 		return rawValue + '%';
