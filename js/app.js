@@ -1,8 +1,6 @@
 var addButton = document.getElementById("add-button");
 var savedPropertiesTable = document.getElementById("saved-properties-table");
 var nameInput = document.getElementById("name-input");
-localStorage.setItem("savedName", nameInput.value);
-var savedName = localStorage.getItem("savedName")
 var priceInput = document.getElementById("price-input");
 var rentInput = document.getElementById("rent-input");
 var maintenanceInput = document.getElementById("maintenance-input");
