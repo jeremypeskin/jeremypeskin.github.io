@@ -1,52 +1,181 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Cap Rate Calculator</title>
-  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8">
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link href="album.css" rel="stylesheet">
 </head>
 <body>
-  <div class = "container">
-    <div class = "calculator-container">
-      <div id = "new-property">
-        <h1>Add New Property</h1>
-        <div class = "form-inline">
-          <p class = "small-label">ADDRESS, PRICE AND RENT</p>
-          <div class = "form-group">
-            <input class="form-control" id="name-input" placeholder="Street and Number">
-            <input class="form-control" id="price-input" placeholder="Price" type="number">
-            <input class="form-control" id="rent-input" placeholder="Rent per month" type="number">
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 py-4">
+          <h4 class="text-white">About Sara</h4>
+          <p class="text-muted">Sara Manning Peskin is a writer and neurology resident at the University of Pennsylvania.  Her pieces have been published in The New York Times and The Huffington Post.  She is currently working on her first book.</p>
+          <a class="typeform-share link" href="https://jeremypeskin.typeform.com/to/geSSaj" data-mode="popup" style="color:#fff;text-decoration:underline;font-size:16px;" target="_blank">Contact Sara </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-light bg-light">
+    <div class="container d-flex justify-content-between">
+      <a href="#" class="navbar-brand">Sara Manning Peskin</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+
+  <section class="jumbotron text-center">
+    <div class="container text-white">
+      <img class="profile-picture" src="img/profile-picture.png" />
+      <h1 class="jumbotron-heading">Sara Manning Peskin</h1>
+      <p class="lead text-muted">Neurologist and Writer</p>
+    </div>
+  </section>
+
+  <div class="album text-muted">
+    <div class="container">
+
+      <!-- First row of cards -->
+      <div class="card-columns">
+
+        <a class="card-link" href="https://www.nytimes.com/2017/07/11/well/live/the-gentler-symptoms-of-dying.html" target="_blank">
+          <div class="card">
+            <div class="img-container text-white">
+              <img class="card-img-top" src="img/gentler-symptoms-of-dying.jpg" alt="Card image cap">
+              <div class="card-img-overlay ">
+                <h4 class="card-title">The Gentler Symptoms of Dying</h4>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-text">The patient’s hair was styled with curls so stiff, they held her head a few inches up from her hospital pillow. She had painted her lips a shade of bright pink that exuded the confidence of age...</p>
+              <p class="card-text"><small class="text-muted">The New York Times, July 11, 2017</small></p>
+            </div>
           </div>
-          <p class = "small-label">ANNUAL OPERATING EXPENSES</p>
-          <div class = "form-group">
-            <input class="form-control" id="maintenance-input" placeholder="Maintenance (est.)" type="number">
-            <input class="form-control" id="property-tax-input" placeholder="Property Tax" type="number">
-            <input class="form-control" id="utilities-and-insurance-input" placeholder="Utilities and Insurance" type="number">
+        </a>
+
+        <a class="card-link" href="https://www.nytimes.com/2017/06/20/well/live/the-symptoms-of-dying.html" target="_blank">
+          <div class="card">
+            <div class="img-container text-white">
+              <img class="card-img-top" src="img/symptoms-of-dying.png" alt="Card image cap">
+              <div class="card-img-overlay ">
+                <h4 class="card-title">The Symptoms of Dying</h4>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-text">You and I, one day we’ll die from the same thing. We’ll call it different names: cancer, diabetes, heart failure, stroke.  One organ will fail, then another. Or maybe all at once...</p>
+              <p class="card-text"><small class="text-muted">The New York Times, June 20, 2017</small></p>
+            </div>
+          </div>
+        </a>
+
+        <a class="card-link" href="https://www.huffingtonpost.com/entry/the-other-woman_us_590bd6a1e4b0f71180724322" target="_blank">
+          <div class="card">
+            <div class="img-container text-white">
+              <img class="card-img-top" src="img/the-other-woman.jpeg" alt="Card image cap">
+              <div class="card-img-overlay ">
+                <h4 class="card-title">The Other Woman</h4>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Before her, my husband and I met on a rudimentary dating website, out-clevering each other by email until constant wittiness became so exhausting that we decided to meet in person...</p>
+              <p class="card-text"><small class="text-muted">The Huffington Post, May 4, 2017</small></p>
+            </div>
+          </div>
+        </a>
+
+      <!-- end -->
+
+      <!-- Second row of cards -->
+
+      <a class="card-link" href="https://www.nytimes.com/2016/07/24/fashion/modern-love-amazon-honeymoon-survival.html" target="_blank">
+        <div class="card">
+          <div class="img-container text-white">
+            <img class="card-img-top" src="img/modern-love.jpg" alt="Card image cap">
+            <div class="card-img-overlay ">
+              <h4 class="card-title">A Crash Course in Honeymoon Survival</h4>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Four days into our honeymoon, my husband and I faced the end of our marriage, the end of our lives...</p>
+            <p class="card-text"><small class="text-muted">The New York Times, July 24, 2016</small></p>
           </div>
         </div>
-        <button id="add-button" class="btn btn-default">Add Property</button>
-        
-      </div>
-      <div id = "saved-properties">
-        <h1>Saved Properties</h1>
-        <table class = "table" style = "text-align: left;">
-          <thead>
-            <th>Name</th>
-            <th>Price</th>
-            <th>Rent</th>
-            <th>Cap Rate</th>
-            <th></th>
-          </thead>
-          <tbody id = "saved-properties-table">
-          </tbody>
-        </table>
-      </div>
+      </a>
+
+      <a class="card-link" href="https://www.huffingtonpost.com/entry/fuhgeddaboudit_us_5842e32ae4b0b93e10f8e262" target="_blank">
+        <div class="card">
+          <div class="img-container text-white">
+            <img class="card-img-top" src="img/why-you-forget.jpeg" alt="Card image cap">
+            <div class="card-img-overlay ">
+              <h4 class="card-title">Fuhgeddaboudit: Why You Forget More Than You Want</h4>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">We all have memories we’ve tried to forget.  The time you dressed as the Oregon Trail wagon for Halloween.  Your last tequila shot, and all the ones before it.  Most of your early teens...</p>
+            <p class="card-text"><small class="text-muted">The Huffington Post, December 03, 2016</small></p>
+          </div>
+        </div>
+      </a>
+
+      <a class="card-link" href="https://www.huffingtonpost.com/entry/for-sick-immigrants-addit_b_9677632.html" target="_blank">
+        <div class="card">
+          <div class="img-container text-white">
+            <img class="card-img-top" src="img/health-insurance.jpg" alt="Card image cap">
+            <div class="card-img-overlay ">
+              <h4 class="card-title">This Immigrant Was Too Sick To Get Health Insurance</h4>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Mr. Santo’s belly was growing. It had been for months, as his liver hardened and fluid seeped into the void between his bowels and his abdominal wall...</p>
+            <p class="card-text"><small class="text-muted">The Huffington Post, April 21, 2016</small></p>
+          </div>
+        </div>
+      </a>
+
+      <!-- end -->
+
+      <!-- Third row of cards -->
+
+      <a class="card-link" href="https://www.huffingtonpost.com/entry/dear-donald-meet-saad_b_9501684.html" target="_blank">
+        <div class="card">
+          <div class="img-container text-white">
+            <img class="card-img-top" src="img/dear-donald.jpg" alt="Card image cap">
+            <div class="card-img-overlay ">
+              <h4 class="card-title">Dear Donald, Meet Saad</h4>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Donald: Saad. Saad: Donald. Consider yourselves e-introduced. Saad is one of the Muslim refugees you wanted to bar from the United States. He resettled here in 2015, and now you’ll find him cruising the casino floor most evenings, headed to the kitchen to wash dishes in a hotel restaurant...</p>
+            <p class="card-text"><small class="text-muted">The Huffington Post, March 21, 2016</small></p>
+          </div>
+        </div>
+      </a>
     </div>
 
 
-    <script type="text/javascript" src="js/app.js"></script>
+  </div>
+</div>
 
-  </body>
-  </html>
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a href="#">Back to top</a>
+    </p>
+    <a class="typeform-share link" href="https://jeremypeskin.typeform.com/to/geSSaj" data-mode="popup" style="color:#007bff;text-decoration:none;font-size:16px;" target="_blank">Contact Sara </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+  </div>
+</footer>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
