@@ -72,6 +72,10 @@ body {
   color: inherit;
 }
 
+.card-link+.card-link {
+    margin-left: 0rem !important;
+}
+
 .card-link:hover {
   color:inherit;
 }
